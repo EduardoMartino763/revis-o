@@ -26,8 +26,45 @@ header img {
     border: solid 1px black; 
 }
 
+h1 {
+    font-size: 67px;
+    color: maroon;
+    font-style: italic;
+    text-shadow: -4px 4px 2px rgb(183, 180, 180); 
+    /*1 número é horizontal, segundo vertical, e terceiro o nível de blur na sombra*/
+}
+
+#slogan {
+    font-size: 28px;
+     color: gray;
+}
+
 nav {
     border: solid 2px maroon;
+}
+
+nav ul {
+    display: flex;
+    /*remove os marcadores (list style) (bolinhas da lista)*/
+    list-style-type: none;
+    /*se quiser os botões centralizados use o (justfy)*/
+    justify-content: center;
+    margin: 0;
+    background-color: maroon;
+    padding: 0;
+}
+
+nav ul li {
+    width: 120px; /*Largura*/
+    height: 40px; /*Altura*/
+    border: 1px solid white;
+    color: white;
+    background: maroon;
+    display: flex;
+    /*Alinhamento vertical dos elementos junto do flex*/
+    align-items: center;
+    /*Alinhamento horizontal dos elementos junto do flex*/
+    justify-content: center;
 }
 
 main {
@@ -36,4 +73,30 @@ main {
 
 footer {
     border: solid 2px gray;
+    background-color: gray;
+    color: white;
+
+}
+
+footer address {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+#redes ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+#redes ul li {
+    width: 110px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;/*horizontal*/
+    align-items: center; /*vertical*/
+
 }
