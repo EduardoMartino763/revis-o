@@ -18,6 +18,7 @@ header {
     /*align-items é alinhamento vertical
     Opções: start end center baseline stretch*/
     align-items: center;
+    flex-wrap: wrap;
 }
 
 header img {
@@ -96,6 +97,7 @@ main {
 section {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;  /*configuração do flex que ajuda na responsividade da página, "quebrando" para baixo elementos que não cabem na tela*/
 }
 
 h2 {
