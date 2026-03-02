@@ -43,6 +43,28 @@ nav {
     border: solid 2px maroon;
 }
 
+nav a {
+    color: white;
+    text-decoration: none; /*remove o sublinhado*/
+}
+
+/*estilo quando o mouse for posicionado em cima do link da barra de navegação*/
+
+nav a:hover {
+    color: maroon;
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*Estilo para não aparecer o roxinho quando viitado um link*/
+nav a:visited {
+    color: white;
+}
+
 nav ul {
     display: flex;
     /*remove os marcadores (list style) (bolinhas da lista)*/
